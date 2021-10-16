@@ -15,7 +15,7 @@
   - keep HTML filename as 'lowercase'
 
 # 2.2 introduction to HTML Tag
-  - Syntax: <~> ~ </~>
+  - Basic Syntax: `<[TAGNAME] [ATTRIBUTE]="[VALUE]"> ~ </[TAGNAME]>`
   - HTML Tag looks like: <~>
   - 'Content' should be position in between tags
   	`<~> ~ </~>`

@@ -21,5 +21,10 @@
 
 # Basic HTML Tag Example
  - title
- 	- <h1>
-  
+ 	- <h1> ~ <h6>
+ - list
+ 	- there are two kind of list:
+		- unordered list(`<ul>`)
+		- ordered list(`<ol>`)
+ 	- for item, `<li>`
+	

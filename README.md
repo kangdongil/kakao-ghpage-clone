@@ -16,9 +16,14 @@
 
 # 2.2 introduction to HTML
   - Syntax: <~> ~ </~>
-  - <~>: HTML Tag
+  - HTML Tag looks like: <~>
   - 'Content' should be position in between tags
-  - 
+  	`<~> ~ </~>`
+  - Attribute: add additional information to tag
+  - Attribute position next to tagname and seperated with whitespace
+  	`<[TAGNAME] [ATTRIBUTE]>`
+  - Tag doesn't require text could be 'self-closing tag'
+  	`<img ~ />`
 
 # Basic HTML Tag Example
  - title
@@ -29,5 +34,15 @@
 		- ordered list(`<ol>`)
  	- for item, `<li>`
  - hyperlink
- 	- a stands for anchor
+ 	- `a` stands for anchor
+	- a requires href(hyperlink reference) attribute
+	- `<a href="~">~</a>`
+	- a can have optional attribute: target
+	  - `_self`: default. replace the originial one
+	  = `_blank`: appear on new tab
+  - image
+  	- `<img src="~"/>`
+	- attribute
+		- src(source): image source as link
+		
 	

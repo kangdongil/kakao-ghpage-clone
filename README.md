@@ -13,6 +13,7 @@
   
 # 2.0 Trivial Convention
   - keep HTML filename as 'lowercase'
+  - Search HTML Tag on MDN(Mozillia Developer Network)
 
 # 2.2 introduction to HTML Tag
   - Basic Syntax: `<[TAGNAME] [ATTRIBUTE]="[VALUE]"> ~ </[TAGNAME]>`
@@ -22,6 +23,8 @@
   - Attribute: add additional information to tag
   - Attribute position next to tagname and seperated with whitespace
   	`<[TAGNAME] [ATTRIBUTE]>`
+  - Attribute has boolean value can omit value(because it always has default enabled)
+  	`~~`
   - Tag doesn't require text could be 'self-closing tag'
   	`<img ~ />`
 
@@ -43,8 +46,12 @@
 		- `<meta property="og:image" content="~" />`
 
 # Common `<body>` HTML Tag Example
- - title
- 	- <h1> ~ <h6>
+ - text
+ 	- title: `<h1> ~ <h6>`
+	- paragraph: `<p>`
+	- style
+		- `<strong>`
+		- `<sup>` or `<sub>`
  - list
  	- there are two kind of list:
 		- unordered list(`<ul>`)

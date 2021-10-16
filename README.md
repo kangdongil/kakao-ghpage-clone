@@ -14,6 +14,8 @@
 # 2.0 Trivial Convention
   - keep HTML filename as 'lowercase'
   - when doublequote(`"`) finish with doublequote
+  - specific attribute are only used in specific tags
+  - make sure to use semantic tag to make the meaning of code more clear
   - Search HTML Tag on MDN(Mozillia Developer Network)
 
 # 2.2 introduction to HTML Tag

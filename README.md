@@ -14,7 +14,7 @@
 # 2.0 Trivial Convention
   - keep HTML filename as 'lowercase'
 
-# 2.2 introduction to HTML
+# 2.2 introduction to HTML Tag
   - Syntax: <~> ~ </~>
   - HTML Tag looks like: <~>
   - 'Content' should be position in between tags
@@ -25,7 +25,14 @@
   - Tag doesn't require text could be 'self-closing tag'
   	`<img ~ />`
 
-# Basic HTML Tag Example
+# Structure of HTML file
+  1. Every HTML start with `<!DOCTYPE html>`
+  2. Open HTML `<html>~</html>`
+  3. `<html>` is consist of two parts:
+  	- `<head>`: configures the website from backstage
+	   - `<title>`: Name Website Name appeared on TabName
+	- `<body>`: content which the user will see
+# Common HTML Tag Example
  - title
  	- <h1> ~ <h6>
  - list
@@ -44,5 +51,8 @@
   	- `<img src="~"/>`
 	- attribute
 		- src(source): image source as link
-		
+
+## Path Notation
+	- ..
+	- /
 	

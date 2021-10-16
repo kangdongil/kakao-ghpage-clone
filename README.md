@@ -13,6 +13,7 @@
   
 # 2.0 Trivial Convention
   - keep HTML filename as 'lowercase'
+  - when doublequote(`"`) finish with doublequote
   - Search HTML Tag on MDN(Mozillia Developer Network)
 
 # 2.2 introduction to HTML Tag
@@ -101,6 +102,17 @@
   - id
 	- id's value should be unique in whole document
 	- one id per one element
+
+# 2.10 
+  - `<div>`
+  	- it's just a container
+  - `<span>`
+    - div can be semantic tag to make precise what usage has
+  - `<header>`
+  - `<main>`
+  - `<footer>`
+  - `<nav>`
+  - `<section>`
 
 ## Path Notation
 	- ..

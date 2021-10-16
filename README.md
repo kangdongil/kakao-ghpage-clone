@@ -18,6 +18,7 @@
   - Syntax: <~> ~ </~>
   - <~>: HTML Tag
   - 'Content' should be position in between tags
+  - 
 
 # Basic HTML Tag Example
  - title
@@ -27,4 +28,6 @@
 		- unordered list(`<ul>`)
 		- ordered list(`<ol>`)
  	- for item, `<li>`
+ - hyperlink
+ 	- a stands for anchor
 	

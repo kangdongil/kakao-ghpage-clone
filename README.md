@@ -30,9 +30,19 @@
   2. Open HTML `<html>~</html>`
   3. `<html>` is consist of two parts:
   	- `<head>`: configures the website from backstage
-	   - `<title>`: Name Website Name appeared on TabName
 	- `<body>`: content which the user will see
-# Common HTML Tag Example
+
+# Common `<head>` HTML Tag Example
+   - `<title>`: Name Website Name appeared on TabName
+   - `<meta content="~" name="~" />`: describe extra information about website
+   - `<meta charset="~" />`: default "utf-8"
+   - `<meta lang="~" />`: default "kr"
+   - set tab icon image
+   		- `<link rel="shortcut icon" href="~" />`
+   - set coverimage when share link on kakaotalk
+		- `<meta property="og:image" content="~" />`
+
+# Common `<body>` HTML Tag Example
  - title
  	- <h1> ~ <h6>
  - list

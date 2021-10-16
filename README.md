@@ -68,7 +68,26 @@
   	- `<img src="~"/>`
 	- attribute
 		- src(source): image source as link
-
+  - forms
+  	- input: `<input type="~" />`
+		- attrib: type
+			- type="text"(default)
+			- type="color"
+			- type="file"
+				- accept="[FILE_EXTENSION]"
+				- For all image: "image/*"
+		- textbox
+			- type="text"
+			- type="password"
+			- placeholder="~"
+		- button
+			- type="submit"
+			- value="~"
+		- other attribs
+			- required
+			- disabled
+			- minlength
+			- maxlength
 ## Path Notation
 	- ..
 	- /

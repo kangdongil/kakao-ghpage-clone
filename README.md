@@ -76,6 +76,9 @@
 			- type="file"
 				- accept="[FILE_EXTENSION]"
 				- For all image: "image/*"
+			- type="url"
+			- type="email"
+			- type="date"
 		- textbox
 			- type="text"
 			- type="password"
@@ -88,6 +91,17 @@
 			- disabled
 			- minlength
 			- maxlength
+	- label: `<label for="~">`
+		- `<label>` works with `<input>`
+		- make sure 'for' and 'id' value should be same
+		- <label for=> & <input=id=>
+		
+# 2.9 class and id attrib
+  - class
+  - id
+	- id's value should be unique in whole document
+	- one id per one element
+
 ## Path Notation
 	- ..
 	- /

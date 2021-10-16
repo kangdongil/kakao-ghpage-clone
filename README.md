@@ -13,4 +13,13 @@
   
 # 2.0 Trivial Convention
   - keep HTML filename as 'lowercase'
+
+# 2.2 introduction to HTML
+  - Syntax: <~> ~ </~>
+  - <~>: HTML Tag
+  - 'Content' should be position in between tags
+
+# Basic HTML Tag Example
+ - title
+ 	- <h1>
   

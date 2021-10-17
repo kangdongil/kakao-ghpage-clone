@@ -35,8 +35,8 @@
   1. Every HTML start with `<!DOCTYPE html>`
   2. Open HTML `<html>~</html>`
   3. `<html>` is consist of two parts:
-  	- `<head>`: configures the website from backstage
-	- `<body>`: content which the user will see
+	 - `<head>`: configures the website from backstage
+	 - `<body>`: content which the user will see
 
 # Common `<head>` HTML Tag Example
    - `<title>`: Name Website Name appeared on TabName
@@ -44,9 +44,9 @@
    - `<meta charset="~" />`: default "utf-8"
    - `<meta lang="~" />`: default "kr"
    - set tab icon image
-   		- `<link rel="shortcut icon" href="~" />`
+   	 - `<link rel="shortcut icon" href="~" />`
    - set coverimage when share link on kakaotalk
-		- `<meta property="og:image" content="~" />`
+	 - `<meta property="og:image" content="~" />`
 
 # Common `<body>` HTML Tag Example
  - text
@@ -105,18 +105,55 @@
 	- id's value should be unique in whole document
 	- one id per one element
 
-# 2.10 
-  - `<div>`
-  	- it's just a container
-  - `<span>`
-    - div can be semantic tag to make precise what usage has
-  - `<header>`
-  - `<main>`
-  - `<footer>`
-  - `<nav>`
-  - `<section>`
+# 2.10 Semantic Tag
+  - Non-Semantic Tag
+    : just a container
+	  - `<div>`
+	  - `<span>`
+  - Semantic Tag
+  	: make purpose clearly by adding name
+	  - `<header>`
+	  - `<main>`
+	  - `<footer>`
+	  - `<nav>`
+	  - `<section>`
 
 ## Path Notation
 	- ..
 	- /
 	
+# 3.0 Introduction to CSS
+  - CSS(Cascading Style Sheet): add properties on HTML Element to make website beautiful
+  - CSS point at HTML Element and describe what properties have
+  - There are two ways to add CSS into HTML:
+    1. `<head> <style>`(in one file)(=inline CSS)
+		
+	2. Create seperate CSS file(.css)(=external CSS)
+		`<link href="styles.css" rel\"stylesheet" />`
+  - Basic Syntax:
+  	```
+	[SELECTOR] {
+		[PROPERTY]: [VALUE];
+	}
+	```
+	- selector: indicate which element is selected
+	- property should be in one word(dash(-) instead of whitespace)
+	- value could have specific size measurement ex) px, em, pt, %
+	- always add semi-colon(;) at the end
+  - `Cascading` means browser read CSS code top to bottom
+    - if property contradict, order between `<style>` and `<link>` determine what property finally being applied
+
+# Common CSS property Example
+  - font
+    - font-size(px)
+	- font-weight(per100)
+	- font-style
+	  - italic
+  	- color
+	- text-decoration
+	  - underline
+  - text
+    - text-align
+	  - center
+  - container
+    - background-color

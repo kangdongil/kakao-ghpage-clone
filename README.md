@@ -101,6 +101,10 @@
 		
 # 2.9 class and id attrib
   - class
+    - class can be used on multiple element
+	  - `<span class="tomato">`
+	- multiple classes can be used in single element
+	  - `<span class="tomato btn top">`
   - id
 	- id's value should be unique in whole document
 	- one id per one element
@@ -138,6 +142,11 @@
 	}
 	```
 	- selector: indicate which element is selected
+	  - tag name: [TAG_NAME]
+	  - class: .[CLASS_NAME]
+	  - id: #[ID_NAME]
+	  - everything: *
+	- multiple selectors use comma(,)
 	- property should be in one word(dash(-) instead of whitespace)
 	- value could have specific size measurement ex) px, em, pt, %
 	- always add semi-colon(;) at the end
@@ -159,6 +168,7 @@
   - container
   	- width / height
     - background-color
+	- border-radius
 	
 # CSS Concept 1: Blocks and Inline
   - Block: prevent other elements come next to it
@@ -182,6 +192,9 @@
   - padding
     : space from the border to the inside
   - border
+    : border of the container
+	[Link](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style)
+	
   - related CSS properties
     - margin / padding
 	  - (one value): 10px; lrtb
@@ -189,4 +202,7 @@
 	  - (four value): 20px 5px 12px 15px; t l b r
 	- margin-left / margin-right / margin-top / margin-bottom
 	- padding-left / padding-right / padding-top / padding-bottom
-	- 
+	- border
+		- `border: [THICKNESS] [STYLE] [COLOR];`
+		  - [STYLE] always 'solid'(rarely 'dashed')
+	

@@ -156,4 +156,12 @@
     - text-align
 	  - center
   - container
+  	- width / height
     - background-color
+	
+# CSS Concept 1: Blocks and Inline
+  - Block: prevent other elements come next to it
+    - Everything except for Inline
+  - Inline: allow other elements in the same line
+    - `<span>`,`<a>`, `<img>`
+  

@@ -176,10 +176,13 @@
   - Inline: allow other elements in the same line
     - `<span>`,`<a>`, `<img>` has default as inline
 	- inline doesn't have width and height
+  - Inline-Block: allow block can be next to each other
+    - inline block are not compatiable to responsive design
   - related CSS properties
     - display
 	  - block
 	  - inline
+	  - inline-block
 
 # CSS Concept 1-1: Margin / Padding / Border
   - `margin`, `padding`, `border` is one of the properties that container has
@@ -205,4 +208,5 @@
 	- border
 		- `border: [THICKNESS] [STYLE] [COLOR];`
 		  - [STYLE] always 'solid'(rarely 'dashed')
-	
+
+# CSS Concept 2: FlexBox

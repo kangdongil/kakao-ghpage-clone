@@ -104,6 +104,7 @@
   - id
 	- id's value should be unique in whole document
 	- one id per one element
+	- to use as selector, it should starts with "#[ID_NAME]"
 
 # 2.10 Semantic Tag
   - Non-Semantic Tag
@@ -161,7 +162,31 @@
 	
 # CSS Concept 1: Blocks and Inline
   - Block: prevent other elements come next to it
-    - Everything except for Inline
+    - Everything except for Inline has default as block
   - Inline: allow other elements in the same line
-    - `<span>`,`<a>`, `<img>`
-  
+    - `<span>`,`<a>`, `<img>` has default as inline
+	- inline doesn't have width and height
+  - related CSS properties
+    - display
+	  - block
+	  - inline
+
+# CSS Concept 1-1: Margin / Padding / Border
+  - `margin`, `padding`, `border` is one of the properties that container has
+  - browser give default value to every HTML element
+  - margin
+  	: space from the border to the outside
+	- collapsing margin
+		- when inner and outer element's margin are the same, it serve as one element
+  		- only happen vertical side of margin
+  - padding
+    : space from the border to the inside
+  - border
+  - related CSS properties
+    - margin / padding
+	  - (one value): 10px; lrtb
+	  - (two value): 20px 15px; tb lr
+	  - (four value): 20px 5px 12px 15px; t l b r
+	- margin-left / margin-right / margin-top / margin-bottom
+	- padding-left / padding-right / padding-top / padding-bottom
+	- 

@@ -29,7 +29,25 @@
 	- `[FILENAME].[EXTENSION]`
 	- `*.[EXTENSION]`
 	- `/[FOLDERNAME]`
+  - Git branch
+    - branch is like a parallel version of your project
+	- when you want to experiment feature, leave main branch as stable one and test it with new branch
+	- when new branch is successful, commit it and you can merge the orginal one
+	  - use `Merge into Current Branch` at Main Branch
+	- you can switch current branch with GitHub Desktop
 
+# 7.1 Publish GitHub Pages
+  - GitHub Pages: GitHub provide publish(hosting) of static website
+  - create `gh-pages` branch
+    - `git checkout -b gh-pages`
+	- `git push origin gh-pages`
+  - view it on `[USERNAME].github.io/[PROJECTNAME]`
+  - when update gh-pages
+    - don't edit gh-pages or it will break
+	  - only edit from main branch
+    - `update from main`
+	- `push to origin`
+  * static website: website that consist of only HTML / CSS / JavaScript
 # Start Project
   - Git Setup
   - `README.md` 

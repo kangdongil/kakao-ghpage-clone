@@ -1,5 +1,6 @@
 .user-component {
 	justify-content: space-between;
+	margin-bottom: 15px;
 }
 
 .user-component, 
@@ -44,7 +45,7 @@
 .user-component__subtitle {
 	margin-top: 5px;
 	font-size: 17px;
-	color: rgba(0,0,0,0.5);
+	color: var(--default-color);
 	display: flex;
 	align-items: center;
 }

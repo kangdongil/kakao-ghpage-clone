@@ -574,6 +574,3 @@
   	- flex center the container
 	- first-child, margin-right: auto;
 	- last-child, margin-left: auto;
-	
-# 숙제
- - chat user component margin 넣기

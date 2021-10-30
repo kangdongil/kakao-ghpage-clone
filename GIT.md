@@ -48,6 +48,12 @@
     - `update from main`
 	- `push to origin`
   * static website: website that consist of only HTML / CSS / JavaScript
+
+# update gh-page branch with CLI
+  - `git checkout gh-pages`
+  - `git rebase master`
+  - `git push origin gh-pages`
+  - `git checkout master`
 # Start Project
   - Git Setup
   - `README.md` 

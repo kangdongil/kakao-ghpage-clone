@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>More - Kokoa Clone</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>110%</span>
+				<i class="fas fa-battery-full fa-lg"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+		
+		<header class="screen-header">
+			<h1 class="screen-header__title">More</h1>
+			<div class="screen-header__icons">
+				<span><i class="fas fa-search fa-lg"></i></span>
+				<span><i class="fas fa-music fa-lg"></i></span>
+				<span>
+					<div class="screen-header__notification badge badge--dot"></div>
+					<a href="settings.html">
+						<i class="fas fa-cog fa-lg"></i>
+					</a>
+				</span>
+			</div>
+		</header>
+		
+		<main class="main-screen more-screen">
+			<div class="user-component">
+				<div class="user-component__column">
+					<img src="images/noru-profile.jpg" class="user-component__avatar user-component__avatar--xl" />
+					<div class="user-component__text">
+						<h4 class="user-component__title">Noru</h4>
+						<div class="user-component__subtitle">
+							<h6>+82 10 555 6666</h6>
+							<i class="fas fa-exclamation-circle"></i>
+						</div>
+					</div>
+				</div>
+				<div class="user-component__column">
+					<div class="user-component__icon">
+						<i class="far fa-comment-alt fa-2x"></i>
+					</div>
+				</div>
+			</div>
+			<div class="icon-row">
+				<div class="icon-row__column">
+					<i class="fas fa-calendar"></i>
+					<span>Calendar</span>
+				</div>
+				<div class="icon-row__column">
+					<i class="far fa-smile-beam"></i>
+					<span>Emoticons</span>
+				</div>
+				<div class="icon-row__column">
+					<i class="fas fa-paint-roller"></i>
+					<span>Themes</span>
+				</div>
+				<div class="icon-row__column">
+					<i class="fas fa-file-invoice"></i>
+					<span>Account</span>
+				</div>
+			</div>
+			<div class="more-suggestions">
+				<h4 class="more-suggestions__title">Suggestions</h4>
+							<div class="icon-row">
+				<div class="icon-row__column">
+					<div class="icon-row__box-icon">
+						<i class="fas fa-quote-right"></i>
+					</div>
+					<span>Kokoa Story</span>
+				</div>
+				<div class="icon-row__column">
+					<div class="icon-row__box-icon">
+						<i class="fas fa-users"></i>
+					</div>
+					<span>Kokoa Friends</span>
+				</div>
+				<div class="icon-row__column">
+					<div class="icon-row__box-icon">
+						<i class="fas fa-gamepad"></i>
+					</div>
+					<span>Kokoa Games</span>
+				</div>
+				<div class="icon-row__column">
+				</div>
+			</div>
+			</div>
+		</main>
+		
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__btn">
+					<a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="chats.html">
+						<div class="nav__notification nav__notification--number badge badge--number">1</div>
+						<i class="far fa-comment fa-2x"></i>
+					</a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="more.html">
+						<div class="nav__notification nav__notification--dot badge badge--dot"></div>
+						<i class="fas fa-ellipsis-h fa-2x"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div id="no-mobile">
+			<span>모바일 전용 웹사이트입니다</span>
+		</div>
+		<div id="no-landscape">
+			<span>이 웹사이트는 세로모드만 지원합니다</span>
+		</div>
+		
+		<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+	</body>
+</html>

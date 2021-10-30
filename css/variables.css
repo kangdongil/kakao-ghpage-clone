@@ -1,0 +1,11 @@
+:root {
+	/* Color Variables */
+	--default-color: #2e363e;
+	--kyellow: #fae100;
+	--kgray: rgba(0,0,0,.5);
+	--chat-room-color: #F2B8B7;
+	/* Size Variables */
+	--horizontal-space: 25px;
+	/* Element Variables */
+	--main-border: 1px solid rgba(0,0,0,.2);
+}

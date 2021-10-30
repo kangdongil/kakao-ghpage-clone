@@ -1,0 +1,19 @@
+.badge {
+	background-color: tomato;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.badge--number {
+	color: white;
+	font-weight: 600;
+	width: 30px;
+	height: 30px;
+}
+
+.badge--dot {
+	width: 6px;
+	height: 6px;
+}

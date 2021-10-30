@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Settings - Kokoa Clone</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>110%</span>
+				<i class="fas fa-battery-full fa-lg"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+
+		<header class="screen-header--alt">
+			<div class="screen-header__column--alt">
+				<a href="more.html">
+					<i class="fas fa-angle-left fa-2x"></i>
+				</a>
+			</div>
+			<div class="screen-header__column--alt">
+				<h1 class="screen-header__title--alt">Settings</h1>
+			</div>
+			<div class="screen-header__column--alt">
+				<span><i class="fas fa-search fa-lg"></i></span>
+			</div>
+			
+		</header>
+		
+		<main class="main-screen">
+			<ul class="settings-list">
+				<li class="settings__setting">
+					<div class="settings__setting-column">
+						<i class="fas fa-bullhorn"></i>
+						<span>Notices</span>
+					</div>
+					<div class="settings__setting-column">
+					</div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting-column">
+						<i class="fas fa-flask"></i>
+						<span>Kokoa Lab</span>
+					</div>
+					<div class="settings__setting-column">
+					</div>
+				</li>
+				<li class="settings__setting">
+					<div class="settings__setting-column">
+						<i class="fas fa-info-circle"></i>
+						<span>Version</span>
+					</div>
+					<div class="settings__setting-column">
+						Latest Version
+					</div>
+				</li>
+			</ul>
+		</main>
+		
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__btn">
+					<a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="chats.html">
+						<div class="nav__notification nav__notification--number badge badge--number">1</div>
+						<i class="far fa-comment fa-2x"></i>
+					</a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="more.html">
+						<div class="nav__notification nav__notification--dot badge badge--dot"></div>
+						<i class="fas fa-ellipsis-h fa-2x"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div id="no-mobile">
+			<span>모바일 전용 웹사이트입니다</span>
+		</div>
+		<div id="no-landscape">
+			<span>이 웹사이트는 세로모드만 지원합니다</span>
+		</div>
+		
+		<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+	</body>
+</html>

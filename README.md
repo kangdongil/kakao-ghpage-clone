@@ -106,6 +106,7 @@
 			- value="~"
 		- other attribs
 			- required
+			: when data send to backend is required
 			- disabled
 			- minlength
 			- maxlength
@@ -113,7 +114,17 @@
 		- `<label>` works with `<input>`
 		- make sure 'for' and 'id' value should be same
 		- <label for=> & <input=id=>
-		
+  - etc.
+    - `<hr>`
+    : horizontal line across the screen
+
+# HTML Character Entity
+  - character entity: piece of string to express character that are difficult to type with keyboard
+  - syntax: begins with `&` and ends with `;`
+  - Example of characters
+    - ©: &copy;
+    - →: &rarr;
+
 # 2.9 class and id attributes
   - class
     - class can be used on multiple element
